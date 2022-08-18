@@ -1,5 +1,37 @@
 # BugFinding
-Dataset: https://drive.google.com/file/d/10x-tIvSvFMeT2J7ULdjoEEqi0s3aTa4K/view?usp=sharing
+Dataset link: https://drive.google.com/file/d/1QYRqeqwKHRcKmWOAC11mEmJnHzNq5m6x/view?usp=sharing
+
+Online proof-of-concept tool: http://47.242.133.237:8090/#/
+Baseline tool: http://47.242.133.237:8092/#/
+
+Directory prepare
+1. Construct the data directory under the root directory
+
+Dataset prepare
+1. Download dataset from Dataset link
+2. put the bugs.json into the data directory
+3. put the ftl_files directory into the data directory
+4. put the html_files directory into the data directory
+
+Construct the system knowledge graph
+1. run 1_filter_bugs.py
+2. run 2_get_category_element_dict.py
+3. run 3_construct_bug_kg.py
+
+Start up Online proof-of-concept tool
+1. Frontend: 
+    a. cd client
+    b. npm run serve -- --port 8090 (8090 replaced by the port number that you use)
+2. Backend:
+    a. python -m server.app
+
+Start up Baseline tool
+1. Frontend:
+    a. cd baseline
+    b. cd client_baseline
+    c. npm run serve -- -- port 8092 (8092 replaced by the port number that you use)
+2. Backend:
+    a. python -m baseline.server_baseline.app
 
 Bugs found during the tool development and user study
 

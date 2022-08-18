@@ -19,7 +19,7 @@ if __name__ == "__main__":
                  4. filter bugs by creation time
     """
 
-    bugs = FileUtil.load_json(PathUtil.get_bugs_filepath("our_bugs"))
+    bugs = FileUtil.load_json(PathUtil.get_bugs_filepath("bugs"))
 
     bug_list = []
     logging.warning(f"filter {len(bugs)} bugs by status, description "
