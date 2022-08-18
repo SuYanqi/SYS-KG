@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "vue-highlight-words": "^2.0.0",
+    "vue-word-highlighter": "^1.0.4"
+  }
+}
