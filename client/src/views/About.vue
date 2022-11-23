@@ -1,6 +1,6 @@
 <template>
   <div class="about">
-    <a href="https://github.com/sysKG/BugFinding" target="_blank">Replication Package</a>
+    <a href="https://github.com/SuYanqi/SYS-KG" target="_blank">Replication Package</a>
 
     <!-- <h1>About</h1> -->
       <!-- <el-table :data="tableData" style="width: 100%">
