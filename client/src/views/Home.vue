@@ -1,7 +1,7 @@
 <template id='tem'>
   <div class="home">
     <!-- <img alt="Vue logo" src="../assets/logo.png" /> -->
-    <Search msg="Welcome to SYSKG" @search-input="handleSearchInput"/>
+    <Search msg="Welcome to SoapOperaTG" @search-input="handleSearchInput"/>
     
     <ResultContainer :searchResult="searchResult"/>
   </div>
