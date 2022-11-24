@@ -1,5 +1,12 @@
 # SYSKG
 Online proof-of-concept tool (SoapOperaTG): http://35.78.195.125:8000/#/
+
+SoapOperaTG tool demo video: https://youtu.be/xcXmY8qGDSc
+
+Usage Instructions
+1. Search the seed bug ID by using the Search Bar
+2. Select a relevant bug report from Relevant Bug Report panel
+3. Use the generated soap opera tests in the Exploratory Testing panel to do soap opera testing on software under test (in our work, Firefox (Desktop) Browser)
 <!-- Baseline tool: http://47.242.133.237:8092/#/ -->
 
 Dataset link: https://drive.google.com/file/d/1gRkdAUZm6lTWfAJ9byqlR2wd_DQ0_sYl/view?usp=sharing
